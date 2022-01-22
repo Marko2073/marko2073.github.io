@@ -94,6 +94,10 @@ body{
     width:100%;
     height: 350px;
 }
+#kontakt{
+    width:100%;
+    height: 400px;
+}
 #mainGalerija{
     width:100%;
     height: 1050px;
@@ -101,6 +105,9 @@ body{
 #mainAbout{
     width:100%;
     height: 500px;
+}
+#kontakt .wrap{
+    background-color:#E6DDC4 ;
 }
 #mainBlue .wrap{
     background-color:#6998AB;
@@ -195,7 +202,7 @@ body{
     float:right;
     padding: 10px;
 }
-#pictureAbout, #pictureEquipment{
+#pictureAbout, #pictureEquipment, #slikaKontakt{
     padding: 15px;
     margin-left: 100px;
     float:left;
@@ -204,7 +211,7 @@ body{
     height: 90%;
     border-radius: 50%;
 }
-#pictureEquipment{
+#pictureEquipment img, #slikaKontakt img{
     height:90%;
 }
 #aboutTxt, #equipmentTxt{
