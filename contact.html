@@ -48,8 +48,19 @@
 				<div id="slikaKontakt">
 					<img src="img/kontakt2.jpg" alt="Kontakt slika" />
 				</div>
-				<div id="forma">
 				
+				<div id="forma">
+					<div id="naslovCover"><h1>Kontakt</h1></div>
+					<form id="formaKontakt" method="get" action="zakazivanje.php" >					
+						<input type="text" id="imePrezime" placeholder="Ime i prezime:" />
+						<input type="email" id="email" value="@gmail.com" placeholder="E-mail adresa:" />
+						<textarea id="napomena" cols="31" rows="8" placeholder="Napomena:" ></textarea>
+						<br/>
+						<input id="potvrdi" type="submit" value="Pošalji" />
+						<br/>
+						<input id="reset" type="reset" value="Poništi" />
+
+					</form>
 				</div>
 				<div class="cleaner"></div>
 			</div>
