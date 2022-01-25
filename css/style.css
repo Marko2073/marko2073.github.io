@@ -151,7 +151,6 @@ body{
 	font-size:17px;
 	padding:5px;
 	color:#2E2B22;
-	animation: levo ease-in 1.1s;
 }
 #naslovCover h1{
     padding: 15px;
@@ -163,7 +162,6 @@ body{
 	padding:1%;
 	display:flex;
 	justify-content:space-between;
-	animation: desno ease-in 1s;
 }
 .slika{
 	padding:10px;
