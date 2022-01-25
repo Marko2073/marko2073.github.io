@@ -37,6 +37,10 @@ body{
     float:left;
     padding: 1%;
 }
+#logo img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 #header ul{
 	list-style-type: none;
 	float:right;
@@ -127,19 +131,38 @@ body{
 	text-align: center;
     background-color:#E6DDC4;
 }
+.heading h2{
+    font-size: 35px;
+}
 .blok{
     width:30%;
     float: left;
     display: flex;
     justify-content:center;
-    margin:50px 0 50px 20px;
-    
+    margin-left: 25px;
+    padding:5px;
+    filter: drop-shadow(0 0 40px #6998AB);
+}
+.blok:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: #B1D0E0;
+}
+.blok1{
+    width:30%;
+    float: left; 
+    margin-bottom: 30px;
+    margin-left: 40px;
 }
 .usluge{
     display: block;
 }
 .usluge img{
-    width: 70%;
+    width: 70px;
+}
+.usluge img:hover{
+    transform: scale(1.2)rotate(10deg);
+    transition: 1s;
 }
 .tekstUsluge{
     display: block;
@@ -170,7 +193,7 @@ body{
 	width:100%;
 	display:flex;
 	border-radius:10px 10px;   
-    filter: drop-shadow(0 10px 40px #6998AB);
+    filter: drop-shadow(0 10px 60px #6998AB);
 }
 .slika img:hover{
 	transform:scale(1.1);
@@ -226,7 +249,12 @@ body{
     padding-top: 40px;   
 }
 #aboutTxt p, #equipmentTxt p{
-    font-size: 24px;  
+    font-size: 24px;
+    padding:10px;  
+}
+#equipmentTxt h2{
+    font-size: 26px; 
+    margin-bottom: 25px;
 }
 #forma{
     width:35%;
@@ -240,12 +268,12 @@ body{
     background-color: #6998AB;
     font-weight: bold;
     font-size: 16px;
-    color: #B1D0E0;
+    color: black;
     border-radius: 3px 3px;
 }
 #potvrdi:hover, #reset:hover{
     background-color:#B1D0E0 ;
-    color: black;
+    color:#6998AB ;
     transition: 1s;
 }
 textarea{
@@ -254,6 +282,6 @@ textarea{
     background-color: #6998AB;
     font-weight: bold;
     font-size: 16px;
-    color: #B1D0E0;
+    color: black;
     border-radius: 3px 3px;
 }
