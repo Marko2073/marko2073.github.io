@@ -40,6 +40,7 @@ body{
 #logo img:hover{
     transform: scale(1.1);
     transition: 0.5s;
+    filter: drop-shadow(20px 20px 25px black);
 }
 #header ul{
 	list-style-type: none;
@@ -193,7 +194,7 @@ body{
 	width:100%;
 	display:flex;
 	border-radius:10px 10px;   
-    filter: drop-shadow(0 10px 60px #6998AB);
+    filter: drop-shadow(20px 20px 15px #6998AB);
 }
 .slika img:hover{
 	transform:scale(1.1);
@@ -237,10 +238,14 @@ body{
 #pictureAbout img{
     height: 90%;
     border-radius: 50%;
-    filter: drop-shadow(0 10px 60px #6998AB);
+    filter: drop-shadow(20px 0px 20px #6998AB);
 }
 #pictureEquipment img, #slikaKontakt img{
     height:90%;
+}
+#pictureEquipment img:hover{
+    filter: drop-shadow(10px 20px 20px black);
+    transition: 1s;
 }
 #aboutTxt, #equipmentTxt{
     width:45%;
@@ -251,7 +256,7 @@ body{
 }
 #aboutTxt p, #equipmentTxt p{
     font-size: 24px;
-    padding:10px;  
+    padding:10px; 
 }
 #equipmentTxt h2{
     font-size: 26px; 
