@@ -237,6 +237,7 @@ body{
 #pictureAbout img{
     height: 90%;
     border-radius: 50%;
+    filter: drop-shadow(0 10px 60px #6998AB);
 }
 #pictureEquipment img, #slikaKontakt img{
     height:90%;
