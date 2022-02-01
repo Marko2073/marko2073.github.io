@@ -143,6 +143,7 @@ body{
     margin-left: 25px;
     padding:5px;
     filter: drop-shadow(0 0 40px #6998AB);
+    animation: desno ease-in 1.1s;
 }
 .blok:hover{
     transition: 0.5s;
@@ -154,6 +155,7 @@ body{
     float: left; 
     margin-bottom: 30px;
     margin-left: 40px;
+    animation: levo ease-in 1.1s;
 }
 .usluge{
     display: block;
