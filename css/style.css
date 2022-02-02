@@ -160,14 +160,12 @@ body{
     background-color: #B1D0E0;
 }
 .blok1{
-    width:30%;
+    width:33%;
     float: left; 
-    margin-bottom: 5px;
-    margin-left: 40px;
+    margin-bottom: 15px;
     animation: levo ease-in 1.1s;
-}
-.usluge{
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 .usluge img{
     width: 50px;
@@ -180,7 +178,8 @@ body{
     display: block;
     width:100%;
     padding: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 #naslovCover{
@@ -275,6 +274,7 @@ body{
 #aboutTxt p, #equipmentTxt p{
     font-size: 24px;
     padding:10px; 
+    text-align: justify;
 }
 #equipmentTxt h2{
     font-size: 26px; 
