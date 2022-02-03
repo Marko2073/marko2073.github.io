@@ -69,10 +69,10 @@ body{
 	border-right: 0px;
 }
 #header ul .active a{
-	color:#B1D0E0;
+	color:#cde2ec;
 }
 #header ul li a:hover{
-    color:#B1D0E0;
+    color:#cde2ec;
 	transition: 1s;   
 }
 #baner{
@@ -95,7 +95,7 @@ body{
 }
 #citat h1{
    margin-bottom: 30px;
-   color:#B1D0E0;
+   color:#cde2ec;
 }
 #citat h2{
     margin-bottom: 15px;
